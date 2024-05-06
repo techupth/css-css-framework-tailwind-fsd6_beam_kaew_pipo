@@ -9,8 +9,26 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-  <!-- Start coding here -->
+<body class="flex justify-center items-center bg-slate-200 w-screen h-screen">
+  <form class="bg-white rounded-xl text-zinc-600 text-xl flex flex-col p-4 gap-4">
+    <h4>Login to Website</h4>
+    <div class="flex justify-between">
+      <label class="font-bold">Email</label>
+      <input type="email"
+        class="border-2 rounded-xl border-zinc-600 p-2 hover:border-violet-500 focus:border-violet-300 outline-none">
+    </div>
+    <div>
+      <label class="font-bold">Password</label>
+      <input type="password"
+        class="border-2 rounded-xl border-zinc-600 p-2 hover:border-violet-500 focus:border-violet-300 outline-none">
+    </div>
+    <div class="flex justify-around">
+      <button class="p-2 w-36 rounded-full bg-violet-500 text-white hover:bg-violet-400 
+        focus:ring focus:ring-violet-300 active:bg-violet-600">Sign in</button>
+      <button class="p-2 w-36 rounded-full bg-white hover:bg-violet-100 
+      focus:ring focus:ring-violet-300 active:text-violet-600">Sign up</button>
+    </div>
+
 </body>
 
 </html>
